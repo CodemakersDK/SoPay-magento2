@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <sopay>
+                <active>1</active>
+                <apikey />
+                <test>1</test>
+                <title>SoPay</title>
+                <allowspecific>0</allowspecific>
+                <specificcountry></specificcountry>
+                <order_status>pending</order_status>
+                <model>Codemakers\SoPay\Model\SoPay</model>
+                <instructions>Instruction.</instructions>
+                <payment_action>true</payment_action>
+                <group>offline</group>
+            </sopay>
+        </payment>
+    </default>
+</config>
