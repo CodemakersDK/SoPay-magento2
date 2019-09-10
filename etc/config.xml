@@ -6,7 +6,7 @@
             <sopay>
                 <active>1</active>
                 <apikey />
-                <test>1</test>
+                <test>0</test>
                 <title>SoPay</title>
                 <allowspecific>0</allowspecific>
                 <specificcountry></specificcountry>

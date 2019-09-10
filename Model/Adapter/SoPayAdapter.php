@@ -114,7 +114,7 @@ class SoPayAdapter
         if($test){
             return 'https://sandbox.sopayapp.com/';
         }
-        return 'https://sandbox.sopayapp.com/';
+        return 'https://api.sopayapp.com/';
     }
 
     /**
